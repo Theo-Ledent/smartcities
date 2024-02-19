@@ -2,3 +2,8 @@
 
 L'énnoncé du premier devoir est le suivant : 
 ![énnoncé](https://github.com/Theo-Ledent/smartcities/assets/150011544/42e25efd-ff6e-42a6-96a7-e847264b5700)
+
+Nous allons tout d'abord expliquer le code partie par partie suivant les consignes de base, ensuite nous passerons aux bonus.
+
+# La LED doit clignoter à l'infini avec une fréquence de 0,5Hz lorsque le bouton poussoir est pressé une fois
+

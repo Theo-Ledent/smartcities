@@ -14,6 +14,7 @@ Premièrement, nous importons les librairies nécessaires au bon déroulement de
 
 ![import](https://github.com/Theo-Ledent/smartcities/assets/150011544/1435da1d-f883-4801-86d5-a82920f01a58)
 
+
 Ensuite, nous créons d'abord une variable **val** qu'on set à 0, puis une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
 Dans cette fonction, nous définirons la variable **val** comme global pour que la fonction comprenne qu'elle est aussi utilisée dans le reste du code.
 
@@ -26,12 +27,14 @@ Ici, l'interruption doit détecter un front montant sur la pin18. Quand c'est le
 
 ![interruption](https://github.com/Theo-Ledent/smartcities/assets/150011544/2eaa56ac-1c97-4237-bea3-37be5739be63)
 
+
 Regardons la boucle.
 Pour le premier point, c'est très simple, il faut que la LED clignote avec une fréquence de 0,5s, soit une période de 2s. Je me suis donc trompé car en allumant la LED 0,5s et en l'éteignant 0,5s, la période est de 1s.
 Cepandant pour l'expliquaation du code, cela ne rous dérangera pas car il est fonctionnel.
 Nous pouvons donc voir que lorsque le bouton à été pressé une fois, on allume et ferme la LED avec une période de 1s.
 
 ![partie 1 boucle](https://github.com/Theo-Ledent/smartcities/assets/150011544/11a7d9d2-5a6d-4052-a010-9c235332263e)
+
 
 Ajoutons les 2 autres modes.
 Comme pour le mode 1, en fonction du nombre de fois que le bouton a été pressé, on rentre dans la condition voulue et remplissons la tâche demandée.

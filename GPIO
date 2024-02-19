@@ -7,3 +7,18 @@ Nous allons tout d'abord expliquer le code partie par partie suivant les consign
 
 # La LED doit clignoter à l'infini avec une fréquence de 0,5Hz lorsque le bouton poussoir est pressé une fois
 
+Décortiquons ensemble le code. 
+
+Premièrement, nous importons les librairies nécessaires au bon déroulement de notre programme.
+
+
+Ensuite, nous créons une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
+
+
+A présent, il faut créer une interruption permettant de détecter les fronts montants de notre bouton, soit quand il ests pressé.
+Nous pouvons voir que dans cette interruption, nous précisons la pin, ce qu'il faut détecter, et ce que cette interruption doit faire.
+Ici, l'interruption doit détecter un front montant sur la pin18. Quand c'est le cas, le code exécute la fonction **interruption_handler**.
+
+
+Regardons la boucle.
+Pour le premier point, c'est très simple, il faut que la LED clignote toutes les 1 secondes. Je me suis donc trompé car en allumant la LED 0,5s et en l'éteignant 0,5s, la période est de 1s

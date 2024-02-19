@@ -17,7 +17,8 @@ Premièrement, nous importons les librairies nécessaires au bon déroulement de
 Ensuite, nous créons une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
 Dans cette fonction, nous définirons la variable **val** comme global pour que la fonction comprenne qu'elle est aussi utilisée dans le reste du code.
 
-![fonction1](https://github.com/Theo-Ledent/smartcities/assets/150011544/5ad6bc7f-81f7-4355-ba8a-f0e2ae388e5d)
+![fonction1](https://github.com/Theo-Ledent/smartcities/assets/150011544/7f5e7836-7910-4fa4-95db-6975ec9e5d8c)
+
 
 A présent, il faut créer une interruption permettant de détecter les fronts montants de notre bouton, soit quand il ests pressé.
 Nous pouvons voir que dans cette interruption, nous précisons la pin, ce qu'il faut détecter, et ce que cette interruption doit faire.
@@ -37,12 +38,14 @@ Comme pour le mode 1, en fonction du nombre de fois que le bouton a été press�
 Pour le deuxièmemode mode, il faut que la LED clignote plus vite lorsque bouton est pressé 2 fois. On recopie donc le code du premier mode en diminuant les **utime.sleep()**.
 Pour le troisième mode, c'est très simple, si on presse encore le bouton, la LED s'éteint.
 
-![boucle partie 2 et 3](https://github.com/Theo-Ledent/smartcities/assets/150011544/fd35e505-1a5e-464c-a8cc-b76d3b952267)
+![Partie 2et3 boucle](https://github.com/Theo-Ledent/smartcities/assets/150011544/145f5f47-3702-4af8-9e45-d8b2f35bcc9d)
+
 
 # Bonus 1 : Ajout d'un effet lors du passage d'une vitesse de clignotement
 L'effet qu'on ajoute ici est simple, on allumer la LED 1s quand le bouton poussoir est pressé. On l'ajoutera dans la fonction pour plus de simplicité.
 
-![fonction](https://github.com/Theo-Ledent/smartcities/assets/150011544/bc6aad1a-3cae-44f6-a81c-578b0f5126ea)
+![bonus 1](https://github.com/Theo-Ledent/smartcities/assets/150011544/7e5cd558-58f4-4c4a-9f81-96e53d8a2bb2)
+
 
 # Bonus 2 : Modifier le nombre d'appuis nécessaires au passage à un autre mode
 Pour le 2e bonus, on change la valeur de la variable **val** à 4 et à 7 pour les 2e et 3e modes.

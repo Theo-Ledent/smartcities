@@ -13,6 +13,7 @@ Premièrement, nous importons les librairies nécessaires au bon déroulement de
 ![import](https://github.com/Theo-Ledent/smartcities/assets/150011544/1435da1d-f883-4801-86d5-a82920f01a58)
 
 Ensuite, nous créons une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
+Dans cette fonction, nous définirons la variable **val** comme global pour que la fonction comprenne qu'elle est aussi utilisée dans le reste du code.
 ![fonction1](https://github.com/Theo-Ledent/smartcities/assets/150011544/5ad6bc7f-81f7-4355-ba8a-f0e2ae388e5d)
 
 A présent, il faut créer une interruption permettant de détecter les fronts montants de notre bouton, soit quand il ests pressé.
@@ -37,7 +38,9 @@ L'effet qu'on ajoute ici est simple, on allumer la LED 1s quand le bouton pousso
 ![fonction](https://github.com/Theo-Ledent/smartcities/assets/150011544/bc6aad1a-3cae-44f6-a81c-578b0f5126ea)
 
 # Bonus 2 : Modifier le nombre d'appuis nécessaires au passage à un autre mode
-
+Pour le 2e bonus, on change la valeur de la variable **val** à 4 et à 7 pour les 2e et 3e modes.
+Ensuite, on modifie légèrement la fonction pour faire l'effet le passage aux bonnes valeurs et on change la valeur de reset.
+![bonus 2](https://github.com/Theo-Ledent/smartcities/assets/150011544/8ebdb9d2-e569-4ac5-9c80-e978f3e04c22)
 
 ![partie 1](https://github.com/Theo-Ledent/smartcities/assets/150011544/d20d62bf-af3e-4039-a9de-4e920248767e)
 ![partie2](https://github.com/Theo-Ledent/smartcities/assets/150011544/61a3febb-0d61-4400-9177-5a1cb8bf22dd)
@@ -45,4 +48,4 @@ L'effet qu'on ajoute ici est simple, on allumer la LED 1s quand le bouton pousso
 
 
 
-![fonction](https://github.com/Theo-Ledent/smartcities/assets/150011544/bc6aad1a-3cae-44f6-a81c-578b0f5126ea)
+

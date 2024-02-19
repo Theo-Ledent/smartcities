@@ -56,6 +56,11 @@ Ensuite, on modifie légèrement la fonction pour faire l'effet le passage aux b
 
 ![bonus 2](https://github.com/Theo-Ledent/smartcities/assets/150011544/8ebdb9d2-e569-4ac5-9c80-e978f3e04c22)
 
+# Code final
+
+![code final](https://github.com/Theo-Ledent/smartcities/assets/150011544/0996354c-97a9-43d6-9a19-7f86a4612513)
+
+
 
 # Support vidéo
 Voici quelques GIF montrant le bon fonctionnement du code:
@@ -65,4 +70,6 @@ Voici quelques GIF montrant le bon fonctionnement du code:
 ![partie2](https://github.com/Theo-Ledent/smartcities/assets/150011544/61a3febb-0d61-4400-9177-5a1cb8bf22dd)
 
 ![partie3](https://github.com/Theo-Ledent/smartcities/assets/150011544/83561cd8-8f27-4637-a72d-e191990ce139)
+
+
 

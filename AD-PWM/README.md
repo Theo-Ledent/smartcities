@@ -1,6 +1,5 @@
-## Devoir N°1 : GPIO
-
-L'énnoncé du premier devoir est le suivant : 
+## Devoir N°2 : Volume d'ue mélodie
+L'énnoncé du second devoir est le suivant : 
 
 ![énnoncé](https://github.com/Theo-Ledent/smartcities/assets/150011544/05708d74-411a-4a44-a233-7b4121b0a19e)
 

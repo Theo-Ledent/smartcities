@@ -35,17 +35,13 @@ Enfin, nous jouns chaques notes les unes après les autres. Et quand on arrive �
 
 Pour le bonus, nous ajoutons une liste de durée et de fréqences permettant de jouer la marche impériale de Star Wars.
 Ensuite, à la maniére du premier labo, nous créeons une fonction attachée à une interruption détectant les fronts montants d'un bouton. Cela permet de stoquer le nombre d'appuis sur ce bouton.
+Dans cette fonction, on reset également le compteur pour recommencer les musique depuis le début.
 
 ![fonction bonus](https://github.com/Theo-Ledent/smartcities/assets/150011544/d177c7ae-7b2a-4198-ba2e-e1b18f8616d0)
 
+Cela nous permet de pouvoir changer de musique en vérifiant l'état du bouton. Si le buton est à 0, on joue la première musique, et si il est à 1, on joue la 2e.
 
 ![bonus 1](https://github.com/Theo-Ledent/smartcities/assets/150011544/92f4ff53-7d34-4b75-8125-68056e0634e9)
-
-
-
-
-
-
 
 
 # Code final

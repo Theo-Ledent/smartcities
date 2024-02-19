@@ -14,7 +14,7 @@ Premièrement, nous importons les librairies nécessaires au bon déroulement de
 
 ![import](https://github.com/Theo-Ledent/smartcities/assets/150011544/1435da1d-f883-4801-86d5-a82920f01a58)
 
-Ensuite, nous créons une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
+Ensuite, nous créons d'abord une variable **val** qu'on set à 0, puis une fonction permettant de compter le nombre de fois que le bouton est pressé. Ici comme il y a 3 modes différents, on reset le compteur quand il ateint la valeur 4.
 Dans cette fonction, nous définirons la variable **val** comme global pour que la fonction comprenne qu'elle est aussi utilisée dans le reste du code.
 
 ![fonction1](https://github.com/Theo-Ledent/smartcities/assets/150011544/7f5e7836-7910-4fa4-95db-6975ec9e5d8c)

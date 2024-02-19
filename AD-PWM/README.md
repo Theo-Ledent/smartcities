@@ -20,7 +20,7 @@ Ensuite, dans une liste, nous rentrons les différentes fréquences qui composen
 ![listeFreqDuree](https://github.com/Theo-Ledent/smartcities/assets/150011544/7376e8ee-28f6-4a57-b488-23736f2e28a4)
 
 
-Nous créons ensuite une première fonction prenant une variable globale **vol** déclarées juste avant avec la variable du compteur **i**. Dans cette fonction, nous lisons la valeur du potentiomètre et la divions par 65,535 pour l'avoir sur une échelle de 1 à 1000 car 1000 est la valeur max que l'on peut mettre dans la commande plus bas.
+Nous créons une première fonction prenant une variable globale **vol** déclarées juste avant avec la variable du compteur **i**. Dans cette fonction, nous lisons la valeur du potentiomètre et la divions par 65,535 pour l'avoir sur une échelle de 1 à 1000 car 1000 est la valeur max que l'on peut mettre dans la commande plus bas.
 Ensuite, nous faisons vibrer le buzzer à la fréquence voulue, au volume voulu et pendant la durée voulue.
 
 ![fonction1](https://github.com/Theo-Ledent/smartcities/assets/150011544/953a8f71-2a68-4585-98f1-a9ab6d2b0b98)

@@ -1,4 +1,4 @@
-## Devoir N°1 : GPIO
+## Devoir N°1 : Clignotement de LED avec bouton poussoir
 
 L'énnoncé du premier devoir est le suivant : 
 

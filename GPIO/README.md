@@ -10,7 +10,7 @@ Nous allons tout d'abord expliquer le code partie par partie suivant les consign
 
 Décortiquons ensemble le code. 
 
-Premièrement, nous importons les librairies nécessaires au bon déroulement de notre programme.
+Premièrement, nous importons les librairies nécessaires au bon déroulement de notre programme et faisons le setup des pins.
 
 ![import](https://github.com/Theo-Ledent/smartcities/assets/150011544/1435da1d-f883-4801-86d5-a82920f01a58)
 

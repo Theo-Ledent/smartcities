@@ -63,7 +63,7 @@ Ensuite, on modifie légèrement la fonction pour faire l'effet le passage aux b
 
 
 # Support vidéo
-Voici quelques GIF montrants le bon fonctionnement du code:
+Voici quelques GIF montrant le bon fonctionnement du code:
 
 ![partie 1](https://github.com/Theo-Ledent/smartcities/assets/150011544/d20d62bf-af3e-4039-a9de-4e920248767e)
 

@@ -6,6 +6,11 @@ L'énnoncé du premier devoir est le suivant :
 
 Nous allons tout d'abord expliquer le code partie par partie suivant les consignes de base, ensuite nous passerons aux bonus.
 
+# Montage
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/69210049-bdb7-4b8f-88e4-2792753ac540)
+
+
 # Code de base
 
 Décortiquons ensemble le code. 

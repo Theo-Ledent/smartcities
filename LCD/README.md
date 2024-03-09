@@ -30,6 +30,33 @@ Cette fonction lit et compare la valeur définie par le potentiomètre et la tra
 
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/b8f34c8b-5090-46fe-8e85-896bedd7e8c8)
 
+Enfin, expliquons la boucle **While** du code. 
+Premièrement, nous mettons un **sleep** de 0,1s. Nous Incrémentons une untité au compteur, appelons la fonction **Mesure()** et affichons l'état et le compteur.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/e9a0f643-a0f2-4673-addb-83406a728fc5)
+
+Ensuite, en fonction de l'état, nous réalisons le travail demandé.
+
+Tout d'abord, lorsque nous ne sommes pas dans l'état 1, nous affichons la température de consigne et la température mesurée. Nous actualisons ces températures toues les secondes.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/4d78d78f-2aa3-416e-b340-f87bcc9678e6)
+
+Dans le premier état, nous inversons l'état de la LED toutes les 0,1s soit la durée du **sleep**. Avec une période de 1s, nous faisons également clignoter le mot **"ALARM"** sur l'écran. Nous faisons aussi aller le buzzer à une fréquence de 1000Hz.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/255e2b82-b209-46d5-9326-ae8f95f1a2c1)
+
+Dans le second état, nous faisons simplement clignoter la LED avec une période de 2s en changeant son état toutes les secondes. Nous mettons également le duty cycle du buzzer à zéro pour éteindre celui-ci.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/61fabb52-a2e5-4269-8247-125818a429cb)
+
+Ici, nous mettons le comtpeur à zéro lorsqu'il atteint la valeur 2O.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/82462192-fde3-4ebf-9594-86ff4f6d1628)
+
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/bc0ef6fd-d1fc-43df-82dd-082968124ecd)
+
+
 
 
 

@@ -7,6 +7,11 @@ L'énnoncé du second devoir est le suivant :
 
 Nous allons tout d'abord expliquer le code partie par partie suivant les consignes de base, ensuite nous passerons au bonus.
 
+# Montage
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/9ac74cb0-f5b6-471b-aa52-dfea141910c6)
+
+
 # Code de base
 
 Décortiquons ensemble le code. 
@@ -66,6 +71,18 @@ Nous créons simplement une variable **screen** pour stocker l'état de l'écran
 
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/596434b0-a015-4c3e-881f-73febd84520c)
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/6e1d3541-78bd-4114-bdb0-07a41516b23b)
+
+# Support vidéo
+
+Passage à l'état 2 : 
+
+https://github.com/hepl-ledent/smartcities/assets/150011544/7d716d13-e6b9-4d31-893c-336dfa5254fe
+
+Passage à l'état 1 : 
+
+https://github.com/hepl-ledent/smartcities/assets/150011544/1c5d9570-80d5-4c4d-be0c-9ded468993bb
+
+
 
 
 

@@ -58,7 +58,7 @@ Voici la première mélodie.
 
 https://github.com/hepl-ledent/smartcities/assets/150011544/7f132821-1232-4dcb-b2eb-fb279032350c
 
-Ensuite, lorsque j'appuie sur le boutton, le code joue la 2e mélodie. Nous remarquerons que chatGPT n'est pas très doué pour générer des mélodies. Il y a également un problème lorsque le buzzer joue une note précise.
+Ensuite, lorsque j'appuie sur le boutton, le code joue la 2e mélodie. Nous remarquerons que chatGPT n'est pas très doué pour générer des mélodies. Il y a également un problème lorsque le buzzer joue la note à 10Hz.
 
 https://github.com/hepl-ledent/smartcities/assets/150011544/c88771fa-def1-4675-ab11-5519c7f155fe
 

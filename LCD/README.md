@@ -1,5 +1,5 @@
 ## Devoir N°3 : Système de contrôle de température
-L'énnoncé du second devoir est le suivant : 
+L'énnoncé du troisième devoir est le suivant : 
 
 ![énnoncé3](https://github.com/hepl-ledent/smartcities/assets/150011544/251c55c6-94b8-4d81-a900-0e482232a7f9)
 

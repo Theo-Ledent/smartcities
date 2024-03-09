@@ -70,6 +70,7 @@ Nous créons simplement une variable **screen** pour stocker l'état de l'écran
 # Code complet
 
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/596434b0-a015-4c3e-881f-73febd84520c)
+
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/6e1d3541-78bd-4114-bdb0-07a41516b23b)
 
 # Support vidéo

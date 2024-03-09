@@ -18,7 +18,8 @@ Premièrement, nous importons les librairies nécessaires au bon déroulement de
 
 Avant de créer nos fonction, nous faison le setup de nos pins, nous créons nos variables et faisons le setup de l'écran LCD.
 
-![image](https://github.com/hepl-ledent/smartcities/assets/150011544/82017a30-0037-4d0f-8ab7-1a520ac6c07a)
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/ba0181de-a52b-4f1d-97c5-b3d81d8f8907)
+
 
 
 Nous créons une fonction **Mesure()** qui nous permettra de connaitre l'état dans lequel nous nous situons : 
@@ -41,9 +42,10 @@ Tout d'abord, lorsque nous ne sommes pas dans l'état 1, nous affichons la temp�
 
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/4d78d78f-2aa3-416e-b340-f87bcc9678e6)
 
-Dans le premier état, nous inversons l'état de la LED toutes les 0,1s soit la durée du **sleep**. Avec une période de 1s, nous faisons également clignoter le mot **"ALARM"** sur l'écran. Nous faisons aussi aller le buzzer à une fréquence de 1000Hz.
+Dans le premier état, nous inversons l'état de la LED toutes les 0,1s soit la durée du **sleep**. Avec une période de 1s, nous affichons également le mot **"ALARM"** sur l'écran. Nous faisons aussi aller le buzzer à une fréquence de 1000Hz.
 
-![image](https://github.com/hepl-ledent/smartcities/assets/150011544/255e2b82-b209-46d5-9326-ae8f95f1a2c1)
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/83c369f1-f13e-48cc-bc02-0b82ff6fa855)
+
 
 Dans le second état, nous faisons simplement clignoter la LED avec une période de 2s en changeant son état toutes les secondes. Nous mettons également le duty cycle du buzzer à zéro pour éteindre celui-ci.
 
@@ -54,7 +56,11 @@ Ici, nous mettons le comtpeur à zéro lorsqu'il atteint la valeur 2O.
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/82462192-fde3-4ebf-9594-86ff4f6d1628)
 
 
-![image](https://github.com/hepl-ledent/smartcities/assets/150011544/bc0ef6fd-d1fc-43df-82dd-082968124ecd)
+# Bonus : Faire clignoter le mot **ALARM** sur l'écran LCD
+
+Nous créons simplement une variable **screen** pour stocker l'état de l'écran (allumé ou éteint) et allumons ou éteingons l'écran toutes les 0,5s.
+
+![image](https://github.com/hepl-ledent/smartcities/assets/150011544/255e2b82-b209-46d5-9326-ae8f95f1a2c1)
 
 
 

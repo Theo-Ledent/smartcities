@@ -27,7 +27,7 @@ Nous créons une fonction **Mesure()** qui nous permettra de connaitre l'état d
   - **Etat 2** : La température mesurée est supérieure à la température de consigne
   - **Etat 3** : La température mesurée est inférieure à la température de consigne
 
-Cette fonction lit et compare la valeur définie par le potentiomètre et la traduit entre 15 et 35°C et la valeur mesurée par le capteur de température.
+Cette fonction lit et compare la valeur définie par le potentiomètre (traduite entre 15 et 35°C) et la valeur mesurée par le capteur de température.
 
 ![image](https://github.com/hepl-ledent/smartcities/assets/150011544/b8f34c8b-5090-46fe-8e85-896bedd7e8c8)
 

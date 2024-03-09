@@ -25,7 +25,7 @@ Avant de créer nos fonction, nous faison le setup de nos pins, nous créons nos
 Nous créons une fonction **Mesure()** qui nous permettra de connaitre l'état dans lequel nous nous situons : 
   - **Etat 1** : La température mesurée est supérieure de 3 degrés à la température de consigne
   - **Etat 2** : La température mesurée est supérieure à la température de consigne
-  - **Etat 2** : La température mesurée est inférieure à la température de consigne
+  - **Etat 3** : La température mesurée est inférieure à la température de consigne
 
 Cette fonction lit et compare la valeur définie par le potentiomètre et la traduit entre 15 et 35°C et la valeur mesurée par le capteur de température.
 
